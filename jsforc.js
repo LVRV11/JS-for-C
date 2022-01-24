@@ -39,6 +39,20 @@
 // console.log (goToCinema);
 
 // ___________________________________________________________
-// ___________________________________________________________
+
+let homeRoad = [];
+homeRoad.push ("мой дом");
+homeRoad.push ("дорожка к дому");
+homeRoad.push ("мигающий фонарь");
+homeRoad.push ("протикающий гидрант");
+homeRoad.push ("пожарка");
+homeRoad.push ("приют");
+homeRoad.push ("моя школа");
+homeRoad.push ("мой подруги");
+
+console.log (homeRoad);
+
+
+
 
 
