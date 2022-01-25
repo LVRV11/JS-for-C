@@ -40,14 +40,37 @@
 
 // __________________________________________________________
 
-let homeRoad = [];
-homeRoad.push ("мой дом");
-homeRoad.push ("дорожка к дому");
-homeRoad.push ("мигающий фонарь");
-homeRoad.push ("протикающий гидрант");
-homeRoad.push ("пожарка");
-homeRoad.push ("приют");
-homeRoad.push ("моя школа");
-homeRoad.push ("мой подруги");
+// let homeRoad = [];
+// homeRoad.push ("мой дом");
+// homeRoad.push ("дорожка к дому");
+// homeRoad.push ("мигающий фонарь");
+// homeRoad.push ("протикающий гидрант");
+// homeRoad.push ("пожарка");
+// homeRoad.push ("приют");
+// homeRoad.push ("моя школа");
+// homeRoad.push ("мой подруги");
+// console.log (homeRoad);
+// homeRoad.pop ();
+// console.log (homeRoad);
+// homeRoad.pop ();
+// console.log (homeRoad);
 
-console.log (homeRoad);
+// __________________________________________________________
+
+// let number = Math.floor (Math.random () *4);
+// console.log (number);
+
+// __________________________________________________________
+
+let phrases = [
+    "Звучит неплохо",
+    "Да, это определенно надо сделать",
+    "Это хорошая идея",
+    "Может, не сегодня?",
+    "Комьютер говорит нет"
+];
+console.log (phrases[Math.floor (Math.random () *5)]);
+
+// let randomPhrases = Math.floor(Math.random()*5);
+// console.log (phrases[randomPhrases]);
+
