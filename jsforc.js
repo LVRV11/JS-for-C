@@ -164,6 +164,10 @@
 // scores.Klar += 3;
 // console.log (scores);
 
-
-
+// let myCrazyObject = {
+//     "name" : "Нелепый объект",
+//     "some array" : [7, 9, { purpose: "пуаница", number: 123 }, 3.3],
+//     "random animal": "Банановая акла"
+// };
+// console.log (myCrazyObject["some array"][2].number);
 
