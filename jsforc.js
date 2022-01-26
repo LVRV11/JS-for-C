@@ -156,7 +156,13 @@
 // console.log (findingNemo.format);
 // console.log (Object.keys(movies));
 
-
+// let scores = {};
+// scores.Jhon = 3;
+// scores.Iren = 5;
+// scores.Klar = 4;
+// scores.Iren += 5;
+// scores.Klar += 3;
+// console.log (scores);
 
 
 
