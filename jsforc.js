@@ -171,3 +171,55 @@
 // };
 // console.log (myCrazyObject["some array"][2].number);
 
+
+// __________________________________________________________
+
+// IF ELSE
+
+// let name = "Ник";
+// console.log ("Привет, " + name);
+// if (name.length > 6) {
+//     console.log ("Ну и длинное же у вас имя");
+// } else {
+//     console.log ("Имя у вас не из длинных");
+// }
+
+// let name = "Тома";
+// let nameFather = "Сергей";
+// let nameMother = "Тома";
+
+// if (name === "Дима") {
+//     console.log ("Привет мне!");
+// } else if (name === "Сергей") {
+//     console.log ("Привет папа!");
+// } else if (name === "Тома") {
+//     console.log ("Привет мама!");
+// } else {
+//     console.log ("Привет незнакомец!");
+// }
+
+// ЦИКЛЫ
+
+// let sheepCounted = 0;
+// while (sheepCounted < 10) {
+//     console.log ("Подсчитано овец: " + sheepCounted + "!");
+//     sheepCounted++;
+// }
+// 
+
+// for (let sheepCounted = 0; sheepCounted < 12; sheepCounted++) {
+//     console.log ("Подсчитано овец: " + sheepCounted + "!");
+// }
+// console.log ("апппппппппш");
+
+// let timesToSayHello = 3;
+// for (let i = 0; i < timesToSayHello; i++) {
+//     console.log ("привет");
+// }
+// console.log ("в");
+
+// let animals = ["лев", "фламинго", "медведь", "удав"];
+// for (let i = 0; i < animals.length; i++) {
+//     console.log ("в этом зоопарке есть " + animals[i] + ".");
+// }
+
