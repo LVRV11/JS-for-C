@@ -223,3 +223,7 @@
 //     console.log ("в этом зоопарке есть " + animals[i] + ".");
 // }
 
+let name = "Dima";
+for (let i = 0; i < name.length; i++) {
+    console.log ("В моем имени есть буква " + name[i] + ".");
+}
