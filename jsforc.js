@@ -223,7 +223,36 @@
 //     console.log ("в этом зоопарке есть " + animals[i] + ".");
 // }
 
-let name = "Dima";
-for (let i = 0; i < name.length; i++) {
-    console.log ("В моем имени есть буква " + name[i] + ".");
-}
+// let name = "Dima";
+// for (let i = 0; i < name.length; i++) {
+//     console.log ("В моем имени есть буква " + name[i] + ".");
+// }
+
+// for (let x = 2; x < 10000; x = x * 2) {
+//     console.log (x);
+// }
+
+// for (let x = 3; x < 10000; x = x * 3) {
+//     console.log (x);
+// }
+
+
+// let number = 3;
+// while (number < 10000) {
+//     console.log (number);
+//     number *= 3;
+// }
+
+// let animals = ["лев", "фламинго", "медведь", "удав"];
+// for (let i = 0; i < animals.length; i++) {
+//     console.log ("в этом зоопарке есть " + animals[i] + ".");
+// }
+
+// let animals = ["Кот", "Рыба", "Лемур", "Комодский Варан"];
+// for (let i = 0; i < animals.length; i++) {
+//     console.log (" " + animals[i] + "- прекрасное живтоное");
+// }
+
+// let animals = ["Кот", "Рыба", "Лемур", "Комодский Варан"];
+//     console.log (animals.length);
+
