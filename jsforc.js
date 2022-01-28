@@ -256,3 +256,46 @@
 // let animals = ["Кот", "Рыба", "Лемур", "Комодский Варан"];
 //     console.log (animals.length);
 
+// let animals = ["Кот", "Рыба", "Лемур", "Комодский Варан"];
+// for (let i = 0; i < animals.length; i++) {
+//     console.log (" " + animals[i] + "- прекрасное живтоное");
+
+// }
+
+
+// let animals = ["Кот", "Рыба", "Лемур", "Комодский Варан"];
+// for (let i = 0; i < animals.length; i++) {
+//     animals[i] = animals[i] + "- прекрасное живтоное";
+// }
+
+// console.log (animals);
+
+// let phrases = [
+//     "Звучит неплохо",
+//     "Да, это определенно надо сделать",
+//     "Это хорошая идея",
+//     "Может, не сегодня?",
+//     "Комьютер говорит нет"
+// ];
+// console.log (phrases[Math.floor (Math.random () *5)]);
+
+// let randomPhrases = Math.floor(Math.random()*5);
+// console.log (phrases[randomPhrases]);
+
+// let number = 3;
+// while (number < 10000) {
+//     console.log (number);
+//     number *= 3;
+// }
+   
+let alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+let alphabetOne = Math.floor(Math.random()*alphabet.length);
+console.log (alphabetOne);
+
+// let randomString = "";
+//     while (randomString < 6) {
+//         console.log (randomString);
+//         randomString += alphabetOne; 
+// }
+// console.log (randomString);
+
