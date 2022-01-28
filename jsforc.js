@@ -288,14 +288,28 @@
 //     number *= 3;
 // }
    
-let alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
-let alphabetOne = Math.floor(Math.random()*alphabet.length);
-console.log (alphabetOne);
-
+// let alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+// let arrAlphabet = alphabet.split("");
+// let alphabetOne = arrAlphabet[Math.floor(Math.random()*arrAlphabet.length)];
 // let randomString = "";
-//     while (randomString < 6) {
-//         console.log (randomString);
-//         randomString += alphabetOne; 
+//     while (randomString.length < 6) {
+//         randomString += ; 
+        
+// }
+// console.log (randomString);
+
+
+// console.log (arrAlphabet[alphabetOne]);
+
+// console.log (alphabetOne);
+// console.log (arrAlphabet);
+
+
+// let alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+// let randomString = "";
+//     while (randomString.length < 6) {
+//         randomString += alphabet[Math.floor(Math.random()*alphabet.length)]; 
+      
 // }
 // console.log (randomString);
 
