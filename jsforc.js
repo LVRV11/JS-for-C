@@ -320,22 +320,43 @@
 
 // }
 
-let input = "javascript is awesome";
-let output = "";
+// let input = "javascript is awesome";
+// let output = "";
 
-for (let i = 0; i < input.length; i++){
-	if(input[i] === "a") {
-      	output += 4;
-     }else if (input[i] === "i"){
-        output += 1; 
-     }else if (input[i] === "e"){
-     		output += 3;
-     }else if (input[i] === "o"){
-     		output += 0;
-     }else{
-     		output += input[i];
-     }
-	}
+// for (let i = 0; i < input.length; i++){
+// 	if(input[i] === "a") {
+//       	output += 4;
+//      }else if (input[i] === "i"){
+//         output += 1; 
+//      }else if (input[i] === "e"){
+//      		output += 3;
+//      }else if (input[i] === "o"){
+//      		output += 0;
+//      }else{
+//      		output += input[i];
+//      }
+// 	}
   
-    console.log (output);
+//     console.log (output);
+
+
+// ___________________________________________________________
+
+
+// let name = prompt ("Как вас зовут?");
+// console.log (name);
+
+// let likesCats = confirm("Тебе нрав кошки?");
+// if (likesCats) {
+//     console.log ("Ты классная кошка!");
+// } else {
+//     console.log ("Ок!");
+// }
+
+// let likesCats = confirm("Тебе нрав кошки?");
+// if (likesCats) {
+//     alert ("Ты классная кошка!");
+// } else {
+//     alert ("Ок!");
+// }
 
