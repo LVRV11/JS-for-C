@@ -368,9 +368,12 @@
 let words = [
     "программа",
     "макака",
-    "прекрасный",
-    "оладушек"
+    "прекрасный"
 ];
+words.push ("котлета");
+words.unshift ("муха");
+
+
 console.log (words);
 
 let word = words[Math.floor(Math.random() *words.length)];
@@ -396,6 +399,7 @@ while (remainingLetters > 0) {
     } else if (guess.length !== 1) {
         alert("Введите одиночную букву.");
     } else {
+        guess = guess.toLowerCase();
         for (let j = 0; j < word.length; j++) {
            if (word[j] === guess) {
                answerArray[j] = guess;
