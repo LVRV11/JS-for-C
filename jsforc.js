@@ -360,3 +360,52 @@
 //     alert ("Ок!");
 // }
 
+// ___________________________________________________________
+
+
+// ВИСИЛИЦА
+
+let words = [
+    "программа",
+    "макака",
+    "прекрасный",
+    "оладушек"
+];
+console.log (words);
+
+let word = words[Math.floor(Math.random() *words.length)];
+console.log (word);
+// случайное слово
+
+
+let answerArray = [];
+for (let i = 0; i < word.length; i++) {
+    answerArray[i] = "_";
+}
+console.log (answerArray);
+
+let remainingLetters = word.length;
+console.log (remainingLetters);
+// итоговый массив
+
+while (remainingLetters > 0) {
+    alert (answerArray.join(" "));
+    let guess = prompt ("Угадайте букву, или нажмите Отмена для выхода из игры");
+    if (guess === null) {
+        break;
+    } else if (guess.length !== 1) {
+        alert("Введите одиночную букву.");
+    } else {
+        for (let j = 0; j < word.length; j++) {
+           if (word[j] === guess) {
+               answerArray[j] = guess;
+               remainingLetters--;
+           } 
+        }
+    } 
+}
+
+alert (answerArray.join(" "));
+alert ("Отлично! Было загадано слово " + word);
+    
+
