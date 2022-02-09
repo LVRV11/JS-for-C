@@ -409,7 +409,7 @@ while (remainingLetters > 0) {
     } 
 }
 
-/ccc
+
 
 alert (answerArray.join(" "));
 alert ("Отлично! Было загадано слово " + word);
