@@ -365,51 +365,70 @@
 
 // ВИСИЛИЦА
 
-let words = [
-    "программа",
-    "макака",
-    "прекрасный"
-];
-words.push ("котлета");
-words.unshift ("муха");
+// let words = [
+//     "программа",
+//     "макака",
+//     "прекрасный"
+// ];
+// words.push ("котлета");
+// words.unshift ("муха");
 
 
-console.log (words);
+// console.log (words);
 
-let word = words[Math.floor(Math.random() *words.length)];
-console.log (word);
-// случайное слово
+// let word = words[Math.floor(Math.random() *words.length)];
+// console.log (word);
+// // случайное слово
 
 
-let answerArray = [];
-for (let i = 0; i < word.length; i++) {
-    answerArray[i] = "_";
-}
-console.log (answerArray);
+// let answerArray = [];
+// for (let i = 0; i < word.length; i++) {
+//     answerArray[i] = "_";
+// }
+// console.log (answerArray);
 
-let remainingLetters = word.length;
-console.log (remainingLetters);
-// итоговый массив
+// let remainingLetters = word.length;
+// console.log (remainingLetters);
+// // итоговый массив
 
-while (remainingLetters > 0) {
-    alert (answerArray.join(" "));
-    let guess = prompt ("Угадайте букву, или нажмите Отмена для выхода из игры");
-    if (guess === null) {
-        break;
-    } else if (guess.length !== 1) {
-        alert("Введите одиночную букву.");
-    } else {
-        guess = guess.toLowerCase();
-        for (let j = 0; j < word.length; j++) {
-           if (word[j] === guess) {
-               answerArray[j] = guess;
-               remainingLetters--;
-           } 
-        }
-    } 
-}
+// while (remainingLetters > 0) {
+//     alert (answerArray.join(" "));
+//     let guess = prompt ("Угадайте букву, или нажмите Отмена для выхода из игры");
+//     if (guess === null) {
+//         break;
+//     } else if (guess.length !== 1) {
+//         alert("Введите одиночную букву.");
+//     } else {
+//         guess = guess.toLowerCase();
+//         for (let j = 0; j < word.length; j++) {
+//            if (word[j] === guess) {
+//                answerArray[j] = guess;
+//                remainingLetters--;
+//            } 
+//         }
+//     } 
+// }
 
-alert (answerArray.join(" "));
-alert ("Отлично! Было загадано слово " + word);
+// alert (answerArray.join(" "));
+// alert ("Отлично! Было загадано слово " + word);
     
+
+// ___________________________________________________________
+
+
+// ФУНКЦИИ 
+
+// function () {
+//     console.log ("Делаем что-то");
+// }
+
+// let ourFirstFunction = function () {
+//     console.log ("Привет, мир!");
+// };
+// ourFirstFunction ();
+
+// let sayHelloTo = function (name) {
+//     console.log ("Привет, " + name + "!");
+// }
+// sayHelloTo ("Nick");
 
