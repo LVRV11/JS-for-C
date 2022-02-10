@@ -432,3 +432,54 @@
 // }
 // sayHelloTo ("Nick");
 
+// let drawCats = function (howManyTimes) {
+//     for (let i = 0; i < howManyTimes; i++) {
+//         console.log (i + " =^.^=");
+//     }
+// };
+// drawCats (5);
+
+// let printMul = function (howManyTimes, whatToDraw) {
+//     for (let i = 0; i < howManyTimes; i++) {
+//         console.log (i + " " + whatToDraw);
+//     }
+// };
+    
+// printMul (5, "=^.^=");
+// printMul (4, "^_^");
+
+// let double = function (number) {
+//     return number * 2;
+// };
+// console.log (double(3));
+// console.log (double(5) + double(6));
+// console.log (double(double(3)));
+
+// let pickRandomWord = function (words) {
+//     return words[Math.floor(Math.random() * words.length)]; 
+    
+// };
+// let randomWords = ["Планета", "Червяк", "Цветок", "Компьютер"];
+//     console.log (pickRandomWord (randomWords));
+//     console.log (pickRandomWord (["Кукушка", "Сом", "Пот"]));
+
+// let randomBodyParts = ["глаз","нос","череп"];
+// let randomAdjectives = ["вонючий","гнилой","идиотский"];
+// let randomWords = ["ножка","крыло","усик","глаз","нос"];
+// let randomanimals = ["оленя","слона","быка","мартышки","кита"];
+// let randomBodyPart = randomBodyParts[Math.floor(Math.random() * 3)];
+// let randomAdjective = randomAdjectives[Math.floor(Math.random() * 3)];
+// let randomWord = randomWords[Math.floor(Math.random() * 5)];
+// let randomanimal = randomanimals[Math.floor(Math.random() * 5)];
+// // let result = "У тебя " + randomBodyPart + " еще более " + randomAdjective + " чем " +  randomWord + " у " + randomanimal; 
+// // let result = ["У тебя", randomBodyPart, "еще более", randomAdjective, "чем", randomWord, "у", randomanimal+ "!!!"].join(" ");
+//  console.log (result);
+
+let pickRandomWord = function (words) {
+    return words[Math.floor(Math.random() * words.length)]; 
+
+let randomBodyParts = ["глаз","нос","череп"];
+let randomAdjectives = ["вонючий","гнилой","идиотский"];
+let randomWords = ["ножка","крыло","усик","глаз","нос"];
+let randomString = "У тебя " + pickRandomWord(randomBodyParts) + " словно " + pickRandomWord() + " чем " +  randomWord + " у " + randomanimal;
+
