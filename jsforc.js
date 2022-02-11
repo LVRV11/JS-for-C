@@ -475,11 +475,15 @@
 // // let result = ["У тебя", randomBodyPart, "еще более", randomAdjective, "чем", randomWord, "у", randomanimal+ "!!!"].join(" ");
 //  console.log (result);
 
-let pickRandomWord = function (words) {
-    return words[Math.floor(Math.random() * words.length)]; 
+// let pickRandomWord = function (words) {
+//     return words[Math.floor(Math.random() * words.length)];
+// }
+// let randomBo = ["глаз","нос","череп"];
+// let randomAd = ["вонючий","гнилой","идиотский"];
+// let randomWords = ["ножка","крыло","усик","глаз","нос"];
+// let randomString = "У " +  pickRandomWord(randomBo) + " ССС " + pickRandomWord(randomAd) + " ККК " + pickRandomWord(randomWords);
 
-let randomBodyParts = ["глаз","нос","череп"];
-let randomAdjectives = ["вонючий","гнилой","идиотский"];
-let randomWords = ["ножка","крыло","усик","глаз","нос"];
-let randomString = "У тебя " + pickRandomWord(randomBodyParts) + " словно " + pickRandomWord() + " чем " +  randomWord + " у " + randomanimal;
+// console.log (randomString);
+
+let
 
