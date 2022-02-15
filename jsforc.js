@@ -485,5 +485,5 @@
 
 // console.log (randomString);
 
-let
+let d
 
