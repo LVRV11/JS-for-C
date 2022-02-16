@@ -485,5 +485,17 @@
 
 // console.log (randomString);
 
-let d
+// let pickRandomWord = function (words) {
+//     return words[Math.floor(Math.random() * words.length)];
+// };
 
+// let generateRandomInsult = function () {
+//     let randomBo = ["глаз","нос","череп"];
+//     let randomAd = ["вонючий","гнилой","идиотский"];
+//     let randomWords = ["ножка","крыло","усик","глаз","нос"];
+//     let randomString = "У тебя " + pickRandomWord(randomBo) + " словно " + pickRandomWord(randomAd) + " " + pickRandomWord(randomWords) +"!!!";
+//     return randomString;
+// };
+// console.log (generateRandomInsult ());
+
+console.log (generateRandomInsult ());
