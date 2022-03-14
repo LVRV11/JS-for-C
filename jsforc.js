@@ -497,7 +497,6 @@
 //     return randomString;
 // };
 // console.log (generateRandomInsult ());
-console.log (generateRandomInsult ());\
 console.log (generateRandomInsult ());
 console.log (generateRandomInsult ());
-+37061136076 Giedrius LTD WESTIMPORT watssap
+console.log (generateRandomInsult ());
