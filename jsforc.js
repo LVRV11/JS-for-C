@@ -497,6 +497,3 @@
 //     return randomString;
 // };
 // console.log (generateRandomInsult ());
-console.log (generateRandomInsult ());
-console.log (generateRandomInsult ());
-console.log (generateRandomInsult ());
