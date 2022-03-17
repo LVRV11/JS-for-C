@@ -525,6 +525,48 @@
 // $("#main-heading").text(newHeadingText);
 // console.log(newHeadingText);
 
-let newHeadingText = prompt ("Введите новый заголовок:");
-$("#main-heading").text(newHeadingText);
-console.log(newHeadingText);
+// let newHeadingText = prompt ("Введите новый заголовок:");
+// $("#main-heading").text(newHeadingText);
+// console.log(newHeadingText);
+
+// $("body").append("<p>Это новый параграф</p>");
+
+// for (let i = 0; i < 3; i++) {
+//     let hobby = prompt("Назови одно из своих любимых хобби!");
+//     $("body").append("<p>" + hobby + "</p>");
+// }
+
+// $("h1").fadeOut(7000);
+
+// $("h1").text("Єтот текст скоро исчезнет").fadeOut(4000);
+
+// $("h1").fadeOut(300).fadeIn(2000);
+// $("h1").slideUp(1000).slideDown(1000);
+// $("h1").fadeOut(1000);
+// $("h1").fadeIn(1000);
+
+// for (let i = 0; i < 3; i++) {
+//     $("h1").fadeOut(1000);
+//     $("h1").fadeIn(1000);
+// }
+
+// $("body").append("<p>Это новый параграф</p>");
+// for (let i = 0; i < 3; i++) {
+//         $("h1").slideUp(1000);
+//         $("h1").slideDown(1000);
+//     }
+
+// $("body").append("<p>Это новый параграф</p>");
+// for (let i = 0; i < 3; i++) {
+//         $("h1").fadeOut(1000);
+//         $("h1").fadeIn(1000);
+//     }
+
+//     $("body").append("<p>Это новый параграф</p>");
+// for (let i = 0; i < 3; i++) {
+//         $("h1").show(1000);
+//         $("h1").hide(1000);
+//     }
+
+let friendsNames = ["Толя, Галя, Зефир"];
+
