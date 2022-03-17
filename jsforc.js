@@ -497,3 +497,34 @@
 //     return randomString;
 // };
 // console.log (generateRandomInsult ());
+
+
+// let fifthLetter = function (name) {
+//     if (name.length < 5) {
+//         return;
+//     }
+//     return "Пятая буква вашего имени: " + name[4] + ".";
+// };
+// console.log (fifthLetter (Dmitrii));
+
+// let medalForScore = function (score) {
+//     if (score < 3) {
+//         return "бронза";
+//     }
+//     if (score < 7) {
+//         return "серебро";
+//     }  
+//     return "Золото";
+// };
+// console.log (medalForScore (2));
+
+// let headingElement = document.getElementById("main-heading");
+// console.log(headingElement.innerHTML);
+// let newHeadingText = prompt ("Введите новый заголовок:");
+// headingElement.innerHTML = newHeadingText;
+// $("#main-heading").text(newHeadingText);
+// console.log(newHeadingText);
+
+let newHeadingText = prompt ("Введите новый заголовок:");
+$("#main-heading").text(newHeadingText);
+console.log(newHeadingText);
