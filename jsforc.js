@@ -565,8 +565,28 @@
 //     $("body").append("<p>Это новый параграф</p>");
 // for (let i = 0; i < 3; i++) {
 //         $("h1").show(1000);
-//         $("h1").hide(1000);
+// //         $("h1").hide(1000);
 //     }
 
-let friendsNames = ["Толя, Галя, Зефир"];
+// $("#main-heading").text("Мои друзья");
 
+// let friends = ["Федя", "Хабиб", "Андрей"];
+
+// for (let i = 0; i < friends.length; i++) {
+//   $("body").append("<p>" + friends[i] + "</p>");
+//   $("p").last().hide().fadeIn((i + 1) * 10000);
+// }
+
+// $("p").append(" лучший!");
+
+// let fadeTime;
+//     for (let i = 0; i < 5; i++) {
+//       fadeTime = (i + 1) * 1000;
+//       $("#main-heading").fadeOut(fadeTime / 2).fadeIn(fadeTime / 2);
+//     }
+
+// let timeUp = function () {
+//     alert ("Время вышло!");
+// };
+
+// setTimeout (timeUp, 3000);
